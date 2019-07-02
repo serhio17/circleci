@@ -13,4 +13,7 @@ jobs:
           command: date
       - run:
           name: Run pwd
-          command: ./pwd.sh
+          command: pwd
+      - run:
+          name: Run ls -al
+          command: ls -al
