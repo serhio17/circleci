@@ -12,8 +12,8 @@ jobs:
           name: Print the Current Time
           command: date
       - run:
-          name: Run pwd
-          command: pwd
+          name: Run pwd.sh script
+          command: ./pwd.sh
       - run:
           name: Run ls -al
           command: ls -al
