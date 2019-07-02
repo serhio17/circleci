@@ -11,3 +11,12 @@ jobs:
       - run:
           name: Print the Current Time
           command: date
+      - run:
+          name: Print current os release
+          command: ./os_release.sh
+      - run:
+          name: Run pwd.sh script
+          command: ./pwd.sh
+      - run:
+          name: Run ls -al
+          command: ls -al
